@@ -1,0 +1,42 @@
+/* declared body font-size of 20px*/
+body {
+    font-size: 20px;
+
+}
+
+/* This ruleset will keep the section tag is the center due to auto margin */
+section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* set the font size 2rem */
+h1 {
+    font-size: 2rem;
+}       
+
+/* width of the figure section is 80 percent of the viewport's width */
+figure {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* image will stay inside its parent container with max-width */
+img {
+    max-width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: gray;
+}
+
+/* This ruleset to adjust the font-size of the figure caption  */
+figcaption {
+    font-size: 1.6rem;
+    color:black;
+    font-weight: bold;
+    word-spacing: -.1em;
+}
